@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\andre\\source\\repos\\palindromo\\",
+  "WorkspaceRootPath": "C:\\Users\\Elanio\\Dupla_Juan_Gustavo\\DS\\palindromo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB7D7376-79BC-4F01-8A46-53118DEB1904}|palindromo.csproj|c:\\users\\andre\\source\\repos\\palindromo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FB7D7376-79BC-4F01-8A46-53118DEB1904}|palindromo.csproj|C:\\Users\\Elanio\\Dupla_Juan_Gustavo\\DS\\palindromo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FB7D7376-79BC-4F01-8A46-53118DEB1904}|palindromo.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB7D7376-79BC-4F01-8A46-53118DEB1904}|palindromo.csproj|c:\\users\\andre\\source\\repos\\palindromo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB7D7376-79BC-4F01-8A46-53118DEB1904}|palindromo.csproj|c:\\users\\elanio\\dupla_juan_gustavo\\ds\\palindromo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB7D7376-79BC-4F01-8A46-53118DEB1904}|palindromo.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,25 +24,25 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\palindromo\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Elanio\\Dupla_Juan_Gustavo\\DS\\palindromo\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\palindromo\\Form1.cs",
+              "ToolTip": "C:\\Users\\Elanio\\Dupla_Juan_Gustavo\\DS\\palindromo\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwDEAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T22:41:57.357Z",
+              "WhenOpened": "2026-08-10T21:21:51.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\palindromo\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Elanio\\Dupla_Juan_Gustavo\\DS\\palindromo\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\palindromo\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\Elanio\\Dupla_Juan_Gustavo\\DS\\palindromo\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T22:37:25.304Z",
+              "WhenOpened": "2026-08-10T21:16:32.527Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -1,0 +1,11 @@
+C:\Users\Elanio\Dupla_Juan_Gustavo\DS\palindromo\obj\Debug\palindromo.csproj.AssemblyReference.cache
+C:\Users\Elanio\Dupla_Juan_Gustavo\DS\palindromo\obj\Debug\palindromo.Form1.resources
+C:\Users\Elanio\Dupla_Juan_Gustavo\DS\palindromo\obj\Debug\palindromo.Properties.Resources.resources
+C:\Users\Elanio\Dupla_Juan_Gustavo\DS\palindromo\obj\Debug\palindromo.csproj.GenerateResource.cache
+C:\Users\Elanio\Dupla_Juan_Gustavo\DS\palindromo\obj\Debug\palindromo.csproj.CoreCompileInputs.cache
+C:\Users\Elanio\Dupla_Juan_Gustavo\DS\palindromo\bin\Debug\palindromo.exe.config
+C:\Users\Elanio\Dupla_Juan_Gustavo\DS\palindromo\bin\Debug\palindromo.exe
+C:\Users\Elanio\Dupla_Juan_Gustavo\DS\palindromo\bin\Debug\palindromo.pdb
+C:\Users\Elanio\Dupla_Juan_Gustavo\DS\palindromo\obj\Debug\palindromo.exe
+C:\Users\Elanio\Dupla_Juan_Gustavo\DS\palindromo\obj\Debug\palindromo.pdb
+C:\Users\Elanio\Dupla_Juan_Gustavo\DS\palindromo\obj\Debug\palindromo.exe.config

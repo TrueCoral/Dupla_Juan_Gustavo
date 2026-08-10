@@ -29,17 +29,19 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtFrase = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.lblTotalCaracteres = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.label16 = new System.Windows.Forms.Label();
+            this.lblA = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.lblO = new System.Windows.Forms.Label();
+            this.lblI = new System.Windows.Forms.Label();
+            this.lblE = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -54,17 +56,19 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
+            this.btnTamanho = new System.Windows.Forms.Button();
+            this.btnInverter = new System.Windows.Forms.Button();
+            this.btnVogais = new System.Windows.Forms.Button();
+            this.btnPalindromo = new System.Windows.Forms.Button();
+            this.btnRetirarEspacos = new System.Windows.Forms.Button();
+            this.btnQuebrarLetra = new System.Windows.Forms.Button();
+            this.btnQuebrarPalavra = new System.Windows.Forms.Button();
+            this.btnReiniciar = new System.Windows.Forms.Button();
+            this.lblInvertida = new System.Windows.Forms.Label();
+            this.lblSemEspacos = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox6.SuspendLayout();
@@ -74,7 +78,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtFrase);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(28, 32);
             this.groupBox1.Name = "groupBox1";
@@ -83,16 +87,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Frase";
             // 
-            // textBox1
+            // txtFrase
             // 
-            this.textBox1.Location = new System.Drawing.Point(6, 19);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(453, 20);
-            this.textBox1.TabIndex = 0;
+            this.txtFrase.Location = new System.Drawing.Point(6, 19);
+            this.txtFrase.Name = "txtFrase";
+            this.txtFrase.Size = new System.Drawing.Size(453, 20);
+            this.txtFrase.TabIndex = 0;
             // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.groupBox2.Controls.Add(this.lblInvertida);
             this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(28, 103);
             this.groupBox2.Name = "groupBox2";
@@ -104,6 +109,7 @@
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.groupBox3.Controls.Add(this.lblSemEspacos);
             this.groupBox3.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(28, 171);
             this.groupBox3.Name = "groupBox3";
@@ -115,7 +121,7 @@
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.groupBox4.Controls.Add(this.label18);
+            this.groupBox4.Controls.Add(this.lblTotalCaracteres);
             this.groupBox4.Controls.Add(this.label17);
             this.groupBox4.Controls.Add(this.label1);
             this.groupBox4.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -126,6 +132,24 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Total de Caracteres";
             this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
+            // 
+            // lblTotalCaracteres
+            // 
+            this.lblTotalCaracteres.AutoSize = true;
+            this.lblTotalCaracteres.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalCaracteres.Location = new System.Drawing.Point(30, 46);
+            this.lblTotalCaracteres.Name = "lblTotalCaracteres";
+            this.lblTotalCaracteres.Size = new System.Drawing.Size(0, 32);
+            this.lblTotalCaracteres.TabIndex = 2;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(44, 35);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(0, 24);
+            this.label17.TabIndex = 1;
             // 
             // label1
             // 
@@ -139,11 +163,11 @@
             // groupBox5
             // 
             this.groupBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.groupBox5.Controls.Add(this.label16);
+            this.groupBox5.Controls.Add(this.lblA);
             this.groupBox5.Controls.Add(this.label15);
-            this.groupBox5.Controls.Add(this.label14);
-            this.groupBox5.Controls.Add(this.label13);
-            this.groupBox5.Controls.Add(this.label12);
+            this.groupBox5.Controls.Add(this.lblO);
+            this.groupBox5.Controls.Add(this.lblI);
+            this.groupBox5.Controls.Add(this.lblE);
             this.groupBox5.Controls.Add(this.label10);
             this.groupBox5.Controls.Add(this.label11);
             this.groupBox5.Controls.Add(this.label8);
@@ -162,50 +186,46 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Total de Vogais";
             // 
-            // label16
+            // lblA
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(73, 32);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(45, 13);
-            this.label16.TabIndex = 14;
-            this.label16.Text = "label16";
+            this.lblA.AutoSize = true;
+            this.lblA.Location = new System.Drawing.Point(70, 30);
+            this.lblA.Name = "lblA";
+            this.lblA.Size = new System.Drawing.Size(0, 13);
+            this.lblA.TabIndex = 14;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(73, 165);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(45, 13);
+            this.label15.Size = new System.Drawing.Size(0, 13);
             this.label15.TabIndex = 13;
-            this.label15.Text = "label15";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
-            // label14
+            // lblO
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(73, 129);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(45, 13);
-            this.label14.TabIndex = 12;
-            this.label14.Text = "label14";
+            this.lblO.AutoSize = true;
+            this.lblO.Location = new System.Drawing.Point(73, 129);
+            this.lblO.Name = "lblO";
+            this.lblO.Size = new System.Drawing.Size(0, 13);
+            this.lblO.TabIndex = 12;
             // 
-            // label13
+            // lblI
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(73, 97);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(45, 13);
-            this.label13.TabIndex = 11;
-            this.label13.Text = "label13";
+            this.lblI.AutoSize = true;
+            this.lblI.Location = new System.Drawing.Point(73, 97);
+            this.lblI.Name = "lblI";
+            this.lblI.Size = new System.Drawing.Size(0, 13);
+            this.lblI.TabIndex = 11;
             // 
-            // label12
+            // lblE
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(74, 68);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(45, 13);
-            this.label12.TabIndex = 10;
-            this.label12.Text = "label12";
+            this.lblE.AutoSize = true;
+            this.lblE.Location = new System.Drawing.Point(74, 68);
+            this.lblE.Name = "lblE";
+            this.lblE.Size = new System.Drawing.Size(0, 13);
+            this.lblE.TabIndex = 10;
             // 
             // label10
             // 
@@ -287,7 +307,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(68, 30);
+            this.label3.Location = new System.Drawing.Point(65, 28);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(0, 25);
             this.label3.TabIndex = 1;
@@ -342,111 +362,119 @@
             this.listBox2.Size = new System.Drawing.Size(120, 147);
             this.listBox2.TabIndex = 0;
             // 
-            // button1
+            // btnTamanho
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(575, 227);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(96, 29);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Tamanho";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnTamanho.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnTamanho.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTamanho.Location = new System.Drawing.Point(575, 227);
+            this.btnTamanho.Name = "btnTamanho";
+            this.btnTamanho.Size = new System.Drawing.Size(96, 29);
+            this.btnTamanho.TabIndex = 7;
+            this.btnTamanho.Text = "Tamanho";
+            this.btnTamanho.UseVisualStyleBackColor = false;
+            this.btnTamanho.Click += new System.EventHandler(this.btnTamanho_Click);
             // 
-            // button2
+            // btnInverter
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(575, 286);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(96, 28);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Inverter";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnInverter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnInverter.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInverter.Location = new System.Drawing.Point(575, 286);
+            this.btnInverter.Name = "btnInverter";
+            this.btnInverter.Size = new System.Drawing.Size(96, 28);
+            this.btnInverter.TabIndex = 8;
+            this.btnInverter.Text = "Inverter";
+            this.btnInverter.UseVisualStyleBackColor = false;
+            this.btnInverter.Click += new System.EventHandler(this.btnInverter_Click);
             // 
-            // button3
+            // btnVogais
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(575, 345);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(96, 28);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "Vogais";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnVogais.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnVogais.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVogais.Location = new System.Drawing.Point(575, 345);
+            this.btnVogais.Name = "btnVogais";
+            this.btnVogais.Size = new System.Drawing.Size(96, 28);
+            this.btnVogais.TabIndex = 9;
+            this.btnVogais.Text = "Vogais";
+            this.btnVogais.UseVisualStyleBackColor = false;
+            this.btnVogais.Click += new System.EventHandler(this.btnVogais_Click);
             // 
-            // button4
+            // btnPalindromo
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(575, 400);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(96, 28);
-            this.button4.TabIndex = 10;
-            this.button4.Text = "Palindromo";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnPalindromo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnPalindromo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPalindromo.Location = new System.Drawing.Point(575, 400);
+            this.btnPalindromo.Name = "btnPalindromo";
+            this.btnPalindromo.Size = new System.Drawing.Size(96, 28);
+            this.btnPalindromo.TabIndex = 10;
+            this.btnPalindromo.Text = "Palindromo";
+            this.btnPalindromo.UseVisualStyleBackColor = false;
+            this.btnPalindromo.Click += new System.EventHandler(this.btnPalindromo_Click);
             // 
-            // button5
+            // btnRetirarEspacos
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button5.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(692, 220);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(96, 45);
-            this.button5.TabIndex = 11;
-            this.button5.Text = "Suprimir Espaços";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnRetirarEspacos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnRetirarEspacos.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRetirarEspacos.Location = new System.Drawing.Point(692, 220);
+            this.btnRetirarEspacos.Name = "btnRetirarEspacos";
+            this.btnRetirarEspacos.Size = new System.Drawing.Size(96, 45);
+            this.btnRetirarEspacos.TabIndex = 11;
+            this.btnRetirarEspacos.Text = "Suprimir Espaços";
+            this.btnRetirarEspacos.UseVisualStyleBackColor = false;
+            this.btnRetirarEspacos.Click += new System.EventHandler(this.btnRetirarEspacos_Click);
             // 
-            // button6
+            // btnQuebrarLetra
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button6.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(692, 281);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(96, 40);
-            this.button6.TabIndex = 12;
-            this.button6.Text = "Quebra por Letra";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btnQuebrarLetra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnQuebrarLetra.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuebrarLetra.Location = new System.Drawing.Point(692, 281);
+            this.btnQuebrarLetra.Name = "btnQuebrarLetra";
+            this.btnQuebrarLetra.Size = new System.Drawing.Size(96, 40);
+            this.btnQuebrarLetra.TabIndex = 12;
+            this.btnQuebrarLetra.Text = "Quebra por Letra";
+            this.btnQuebrarLetra.UseVisualStyleBackColor = false;
+            this.btnQuebrarLetra.Click += new System.EventHandler(this.btnQuebrarLetra_Click);
             // 
-            // button7
+            // btnQuebrarPalavra
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button7.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(692, 332);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(96, 56);
-            this.button7.TabIndex = 13;
-            this.button7.Text = "Quebrar Palavra ";
-            this.button7.UseVisualStyleBackColor = false;
+            this.btnQuebrarPalavra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnQuebrarPalavra.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuebrarPalavra.Location = new System.Drawing.Point(692, 332);
+            this.btnQuebrarPalavra.Name = "btnQuebrarPalavra";
+            this.btnQuebrarPalavra.Size = new System.Drawing.Size(96, 56);
+            this.btnQuebrarPalavra.TabIndex = 13;
+            this.btnQuebrarPalavra.Text = "Quebrar Palavra ";
+            this.btnQuebrarPalavra.UseVisualStyleBackColor = false;
+            this.btnQuebrarPalavra.Click += new System.EventHandler(this.btnQuebrarPalavra_Click);
             // 
-            // button8
+            // btnReiniciar
             // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(692, 400);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(96, 28);
-            this.button8.TabIndex = 14;
-            this.button8.Text = "Reiniciar";
-            this.button8.UseVisualStyleBackColor = false;
+            this.btnReiniciar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnReiniciar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReiniciar.Location = new System.Drawing.Point(692, 400);
+            this.btnReiniciar.Name = "btnReiniciar";
+            this.btnReiniciar.Size = new System.Drawing.Size(96, 28);
+            this.btnReiniciar.TabIndex = 14;
+            this.btnReiniciar.Text = "Reiniciar";
+            this.btnReiniciar.UseVisualStyleBackColor = false;
+            this.btnReiniciar.Click += new System.EventHandler(this.btnReiniciar_Click);
             // 
-            // label17
+            // lblInvertida
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(44, 35);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(0, 24);
-            this.label17.TabIndex = 1;
+            this.lblInvertida.AutoSize = true;
+            this.lblInvertida.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInvertida.Location = new System.Drawing.Point(9, 16);
+            this.lblInvertida.Name = "lblInvertida";
+            this.lblInvertida.Size = new System.Drawing.Size(0, 15);
+            this.lblInvertida.TabIndex = 15;
             // 
-            // label18
+            // lblSemEspacos
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(30, 46);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(45, 13);
-            this.label18.TabIndex = 2;
-            this.label18.Text = "label18";
+            this.lblSemEspacos.AutoSize = true;
+            this.lblSemEspacos.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSemEspacos.Location = new System.Drawing.Point(9, 16);
+            this.lblSemEspacos.Name = "lblSemEspacos";
+            this.lblSemEspacos.Size = new System.Drawing.Size(0, 15);
+            this.lblSemEspacos.TabIndex = 16;
             // 
             // Form1
             // 
@@ -454,14 +482,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::palindromo.Properties.Resources.palavras;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnReiniciar);
+            this.Controls.Add(this.btnQuebrarPalavra);
+            this.Controls.Add(this.btnQuebrarLetra);
+            this.Controls.Add(this.btnRetirarEspacos);
+            this.Controls.Add(this.btnPalindromo);
+            this.Controls.Add(this.btnVogais);
+            this.Controls.Add(this.btnInverter);
+            this.Controls.Add(this.btnTamanho);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
@@ -474,6 +502,10 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.groupBox5.ResumeLayout(false);
@@ -489,7 +521,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtFrase;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox5;
@@ -498,7 +530,7 @@
         private System.Windows.Forms.GroupBox groupBox7;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label lblE;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label8;
@@ -509,19 +541,21 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label lblO;
+        private System.Windows.Forms.Label lblI;
+        private System.Windows.Forms.Button btnTamanho;
+        private System.Windows.Forms.Button btnInverter;
+        private System.Windows.Forms.Button btnVogais;
+        private System.Windows.Forms.Button btnPalindromo;
+        private System.Windows.Forms.Button btnRetirarEspacos;
+        private System.Windows.Forms.Button btnQuebrarLetra;
+        private System.Windows.Forms.Button btnQuebrarPalavra;
+        private System.Windows.Forms.Button btnReiniciar;
+        private System.Windows.Forms.Label lblA;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label lblTotalCaracteres;
+        private System.Windows.Forms.Label lblInvertida;
+        private System.Windows.Forms.Label lblSemEspacos;
     }
 }
 
