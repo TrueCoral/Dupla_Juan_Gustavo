@@ -1,0 +1,10 @@
+C:\Users\EtecVAV\Downloads\Dupla_Juan_Gustavo\DS\achados_perdidos\bin\Debug\achados_perdidos.exe.config
+C:\Users\EtecVAV\Downloads\Dupla_Juan_Gustavo\DS\achados_perdidos\bin\Debug\achados_perdidos.exe
+C:\Users\EtecVAV\Downloads\Dupla_Juan_Gustavo\DS\achados_perdidos\bin\Debug\achados_perdidos.pdb
+C:\Users\EtecVAV\Downloads\Dupla_Juan_Gustavo\DS\achados_perdidos\obj\Debug\achados_perdidos.csproj.AssemblyReference.cache
+C:\Users\EtecVAV\Downloads\Dupla_Juan_Gustavo\DS\achados_perdidos\obj\Debug\achados_perdidos.Form1.resources
+C:\Users\EtecVAV\Downloads\Dupla_Juan_Gustavo\DS\achados_perdidos\obj\Debug\achados_perdidos.Properties.Resources.resources
+C:\Users\EtecVAV\Downloads\Dupla_Juan_Gustavo\DS\achados_perdidos\obj\Debug\achados_perdidos.csproj.GenerateResource.cache
+C:\Users\EtecVAV\Downloads\Dupla_Juan_Gustavo\DS\achados_perdidos\obj\Debug\achados_perdidos.csproj.CoreCompileInputs.cache
+C:\Users\EtecVAV\Downloads\Dupla_Juan_Gustavo\DS\achados_perdidos\obj\Debug\achados_perdidos.exe
+C:\Users\EtecVAV\Downloads\Dupla_Juan_Gustavo\DS\achados_perdidos\obj\Debug\achados_perdidos.pdb

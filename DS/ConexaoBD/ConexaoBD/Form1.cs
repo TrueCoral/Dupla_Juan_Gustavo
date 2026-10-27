@@ -15,7 +15,7 @@ namespace ConexaoBD
     {
         SQLconnection conecta = new SQLconnection();
             (@"Data Source=LAPTOP-V9M1ME3V;Initial Catalog=BD_Funcionarios_CS;Integrated Security=True");
-        SqlCommand comando = new SqlCommand();
+        SqlCommand cmd = new SqlCommand();
         SqlDataReader dr;
         DataTable ds = new DataTable("TB_funcionarios");
         public Form1()

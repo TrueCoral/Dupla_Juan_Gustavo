@@ -1,0 +1,5 @@
+C:\Users\EtecVAV\Downloads\Dupla_Juan_Gustavo\DS\ConexaoBD\ConexaoBD\obj\Debug\ConexaoBD.csproj.AssemblyReference.cache
+C:\Users\EtecVAV\Downloads\Dupla_Juan_Gustavo\DS\ConexaoBD\ConexaoBD\obj\Debug\ConexaoBD.Form1.resources
+C:\Users\EtecVAV\Downloads\Dupla_Juan_Gustavo\DS\ConexaoBD\ConexaoBD\obj\Debug\ConexaoBD.Properties.Resources.resources
+C:\Users\EtecVAV\Downloads\Dupla_Juan_Gustavo\DS\ConexaoBD\ConexaoBD\obj\Debug\ConexaoBD.csproj.GenerateResource.cache
+C:\Users\EtecVAV\Downloads\Dupla_Juan_Gustavo\DS\ConexaoBD\ConexaoBD\obj\Debug\ConexaoBD.csproj.CoreCompileInputs.cache
